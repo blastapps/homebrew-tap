@@ -1,28 +1,28 @@
 class Blastqr < Formula
   desc "Send files to the blastQR app as QR codes shown in the terminal"
   homepage "https://codeberg.org/cukha/blastqr"
-  version "3.0.1"
+  version "3.0.2"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/cu-kha/blastqr/releases/download/v3.0.1/blastqr-cli-v3.0.1-aarch64-apple-darwin.tar.gz"
-      sha256 "1bdf1caf1b6e8a050eeb4eda71daeca885257cf74fcdcf82428cfe9561e29a12"
+      url "https://github.com/cu-kha/blastqr/releases/download/v3.0.2/blastqr-cli-v3.0.2-aarch64-apple-darwin.tar.gz"
+      sha256 "f4737f14b956cc5f5bb54184566953fc5b43124f75092a20dd0424f703b51a2d"
     end
     on_intel do
-      url "https://github.com/cu-kha/blastqr/releases/download/v3.0.1/blastqr-cli-v3.0.1-x86_64-apple-darwin.tar.gz"
-      sha256 "468b78641534e45c47adc6ef6ff7e1b2fbdad1c0adaa7fa0f8270e67999b1c20"
+      url "https://github.com/cu-kha/blastqr/releases/download/v3.0.2/blastqr-cli-v3.0.2-x86_64-apple-darwin.tar.gz"
+      sha256 "73151058b8aece99c7351afae247281332011a346a82a20bfe4f309e901df9ae"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/cu-kha/blastqr/releases/download/v3.0.1/blastqr-cli-v3.0.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "c9a47676f5fa270ee8d6bb052db2f9f4f13abd772728bf443011ececb8ed78dc"
+      url "https://github.com/cu-kha/blastqr/releases/download/v3.0.2/blastqr-cli-v3.0.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "4d8a8cd9dbae74d4f7fd1007f6cbc1ec8ceae69ee8d935d6f310433995aed1ef"
     end
     on_intel do
-      url "https://github.com/cu-kha/blastqr/releases/download/v3.0.1/blastqr-cli-v3.0.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "87b1f8a44cf1dc0542e954fad7cc5dffde2ec101221328e7b22ce1a512fe9525"
+      url "https://github.com/cu-kha/blastqr/releases/download/v3.0.2/blastqr-cli-v3.0.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "d3e16e407fffdcb62d7cd96c5652e4bb9c6242cb56cd76e73a35fac3a675d70c"
     end
   end
 
