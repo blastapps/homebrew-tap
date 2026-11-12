@@ -1,5 +1,5 @@
 # Homebrew tap for blastQR
 
-    brew install cu-kha/tap/blastqr
+    brew install blastapps/tap/blastqr
 
-Formulas here are updated automatically by the [blastQR](https://codeberg.org/cukha/blastqr) release workflow.
+Formulas here are updated automatically by the [blastQR](https://codeberg.org/blast/blastqr) release workflow.
